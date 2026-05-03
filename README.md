@@ -26,18 +26,6 @@ Gone are the days of clunky university web portals. We've built an experience ce
 *   **📚 Pocket Library:** Instant access to digital resources, lecture notes, and study materials, optimized for mobile reading.
 *   **📅 Timeline & Deadlines:** Never miss an assignment with integrated academic tracking and visual deadline reminders.
 
----
-
-## 🎨 Visual Tour
-
-<div align="center">
-  
-*(Drop your sleekest screenshots here to show off the UI)*
-
-| 🏠 The Dashboard | 📈 Academic Tracker | ⚙️ Profile Settings |
-| :---: | :---: | :---: |
-| <img src="https://via.placeholder.com/250x500.png?text=Dashboard+Screen" width="220"/> | <img src="https://via.placeholder.com/250x500.png?text=Grades+Screen" width="220"/> | <img src="https://via.placeholder.com/250x500.png?text=Profile+Screen" width="220"/> |
-
 </div>
 
 ---
