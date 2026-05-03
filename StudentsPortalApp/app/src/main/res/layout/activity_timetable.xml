@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_home"
+        android:contentDescription="Background Image"
+        android:alpha="0.7" />
+
+    <!-- Content with some padding and scrolling -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weekly Timetable"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/amaranth_bold"
+                android:textColor="#1E2D59"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Day Card Template -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/card_bg_timetable"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                android:elevation="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📅 Monday"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#34495E" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9 AM - Math\n11 AM - Programming"
+                    android:textSize="16sp"
+                    android:textColor="#555"
+                    android:layout_marginTop="6dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/card_bg_timetable"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                android:elevation="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📅 Tuesday"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#34495E" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10 AM - Web Dev\n1 PM - Physics"
+                    android:textSize="16sp"
+                    android:textColor="#555"
+                    android:layout_marginTop="6dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/card_bg_timetable"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                android:elevation="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📅 Wednesday"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#34495E" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9 AM - Python\n12 PM - English"
+                    android:textSize="16sp"
+                    android:textColor="#555"
+                    android:layout_marginTop="6dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/card_bg_timetable"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                android:elevation="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📅 Thursday"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#34495E" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10 AM - DBMS\n1 PM - UI/UX"
+                    android:textSize="16sp"
+                    android:textColor="#555"
+                    android:layout_marginTop="6dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/card_bg_timetable"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                android:elevation="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📅 Friday"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#34495E" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9 AM - Android\n11 AM - Project Lab"
+                    android:textSize="16sp"
+                    android:textColor="#555"
+                    android:layout_marginTop="6dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/card_bg_timetable"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📅 Monday"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#0D47A1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9:00 AM - Mathematics"
+                    android:textSize="16sp"
+                    android:textColor="#333"
+                    android:layout_marginTop="4dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11:00 AM - Programming"
+                    android:textSize="16sp"
+                    android:textColor="#333"
+                    android:layout_marginTop="2dp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
+

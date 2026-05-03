@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NaN Aesthetic Generator</string>
+    <string name="title_text">Aesthetic Vibe Calculator</string>
+    <string name="generate_button">Generate Vibe</string>
+    <string name="default_description">Your aesthetic will appear here.</string>
+    <string name="image_desc">Vibe Image</string>
+    <string name="result_text">Your Aesthetic Vibe:\n%s</string>
+    <string name="vibe1">You’re a sunny pop daydream 🌞🎶</string>
+    <string name="vibe2">Cozy winter lo-fi night ❄️🎧</string>
+    <string name="vibe3">Golden leaves and violins 🍂🎻</string>
+    <string name="vibe4">Fresh air and loud chords 🌸🎸</string>
+    <string name="vibe5">Raindrops and saxophones ☔🎷</string>
+    <string name="vibe6">Dreamy vibes under the stars 🌌✨</string>
+    <string name="vibe_default">You are a unique vibe! 🎨</string>
+
+</resources>
